@@ -1,0 +1,25 @@
+// Navbar
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    .logo{
+        padding-left: 100px;
+        p{
+            color: white;
+        }
+    }
+    .nav{
+        padding-right: 100px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                list-style: none;
+                padding-left: 20px;
+                color: white;
+            }
+        }
+    }
+}
