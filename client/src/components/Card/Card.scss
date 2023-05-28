@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    .img{
+        height: 150px;
+        overflow: hidden;
+    }
+    .detail{
+        text-align: center;
+        h4{
+            margin: 10px 0;
+        }
+        p{
+            margin: 0;
+        }
+        .discount{
+            text-decoration: line-through;
+            font-size: 0.7em;
+        }
+        .point{
+            color: yellow;
+        }
+    }
+}

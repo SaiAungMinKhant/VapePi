@@ -1,0 +1,45 @@
+.bestdeals{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    .title{
+        margin-bottom: 20px;
+        text-align: center;
+        h1{
+            margin: 5px;
+        }
+        h3{
+            margin: 0;
+        }
+    }
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        .col{
+            text-align: center;
+            p{  
+                background-color: red;
+                color: white;
+                width: 100px;
+                margin: auto;
+            }
+            .card{
+                padding: 10px 30px;
+                p{
+                    background-color: transparent;
+                    color: black;
+                }
+            }
+        }
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        margin: auto;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+}
