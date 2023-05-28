@@ -1,43 +1,44 @@
-.list {
-    width: 100%;
-    margin-top: 10px;
-  
-    .listTitle {
-      color: white;
-      font-size: 20px;
-      font-weight: 500;
-      margin-left: 50px;
-    }
-  
-    .wrapper {
-      position: relative;
-      .sliderArrow {
-        width: 50px;
-        height: 100%;
-        background-color: rgb(22, 22, 22, 0.5);
-        color: white;
-        position: absolute;
-        z-index: 99;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        cursor: pointer;
-  
-        &.left {
-          left: 0;
-        }
-  
-        &.right {
-          right: 0;
-        }
-      }
-      .container {
-        margin-left: 50px;
-        display: flex;
-        margin-top: 10px;
-        width: max-content;
-        transform: translateX(0px);
-        transition: all 1s ease;
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: calc(100% - 100px); // Adjust width to accommodate buttons
+    margin: 0 auto; // Center the slider horizontally
+    .slider-item{
+      text-align: center;
+      .card{
+        margin: 10px 30px;
       }
     }
   }
+
+  .next {
+    width: 50px;
+    position: absolute;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    height: 150px;
+    background-color: gray;
+    border: none;
+    border-radius: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &:hover {
+      background-color: darkgray;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+  .next {
+    right: 10px;
+  }
+}

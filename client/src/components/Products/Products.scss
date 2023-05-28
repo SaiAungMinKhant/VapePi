@@ -1,5 +1,22 @@
 .products{
     .newrelease{
         text-align: center;
+        .newproduct{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: auto;
+            .card{
+                margin: 10px 30px;
+                .img{
+                    background-color: red;
+                }
+                .detail{
+                    .point{
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }
