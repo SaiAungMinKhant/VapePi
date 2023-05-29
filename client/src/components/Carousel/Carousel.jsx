@@ -42,6 +42,11 @@ function Carousel() {
     <div className="container">
       <button className="button-next" onClick={nextImage}><AiOutlineArrowRight /></button>
       <div className="track">
+      {/* <div className='newflavor'>
+        <h1>Try New Flavor</h1>
+        <span>Citrus Moster</span>
+        <button>View</button>
+      </div> */}
         {images.map((image, index) => (
           <div
             className="slide-image"
@@ -49,8 +54,13 @@ function Carousel() {
             style={{
               backgroundImage: `url(${image})`,
               transform: index === 0 ? "translateX(0%)" : "translateX(100%)",
-            }}
-          ></div>
+            }}>
+            <div className='newflavor'>
+              <h1>Try New Flavor</h1>
+              <span>Citrus Moster</span><br/>
+              <button>View</button>
+            </div>
+          </div>
         ))}
       </div>
       <div className="footer">

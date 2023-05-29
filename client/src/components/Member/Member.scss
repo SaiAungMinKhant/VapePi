@@ -1,14 +1,65 @@
 .item-1{
     grid-area: item-1;
+    color: white;
+    button{
+        margin-top: 5px;
+        height: 35px;
+        width: 70px;
+        color: white;
+        background-color: gray;
+        border: none;
+        border-radius: 45px;
+    }
 }
 .item-2{
     grid-area: item-2;
+    img{
+        position: relative;
+        top: 100px;
+        left: 30%;
+    }
+    .item-info{
+        color: white;
+        position: relative;
+        left: 10%;
+        top: 100px;
+    }
 }
 .item-3{
     grid-area: item-3;
+    .img-con{
+        height: 100px;
+        overflow: hidden;
+        img{
+            position: relative;
+            left: 110px;
+            top: 15px;
+        }
+    }
+    .item-info{
+        color: white;
+        position: relative;
+        left: 10%;
+        top: 10px;
+    }
 }
 .item-4{
     grid-area: item-4;
+    .img-con{
+        height: 150px;
+        overflow: hidden;
+        img{
+            position: relative;
+            left: 110px;
+            top: 15px;
+        }
+    }
+    .item-info{
+        color: white;
+        position: relative;
+        left: 10%;
+        top: 10px;
+    }
 }
 .member{
     display: grid;
@@ -19,16 +70,16 @@
     'item-1 item-2 item-4'
     ;
     height: 500px;
-    width: 90%;
-    margin: 50px auto;
+    width: 85%;
+    margin: 100px auto;
 
     .box{
         margin: 5px;
         border-radius: 5px;
-        background-color: gray;
+        background-color: #262626;
         .items-1{
             text-align: left;
-            margin: 300px auto auto 50px;
+            margin: 280px auto auto 50px;
         }
     }
 }

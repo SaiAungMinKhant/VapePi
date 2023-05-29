@@ -1,5 +1,8 @@
 import React from "react"
 import './Member.scss'
+import v5 from '../../assets/v5.png'
+import v7 from '../../assets/v7.png'
+import v12 from '../../assets/v12.png'
 
 function Member() {
     return (
@@ -11,9 +14,31 @@ function Member() {
                     <button>View</button>
                 </div>
             </div>
-            <div className="box item-2"></div>
-            <div className="box item-3"></div>
-            <div className="box item-4"></div>
+            <div className="box item-2">
+                <img src={v12} alt="#" />
+                <div className="item-info">
+                    <h1>Devices</h1>
+                    <p>Find the best for <br/>you here!</p>
+                </div>
+            </div>
+            <div className="box item-3">
+                <div className="img-con">
+                        <img src={v7} alt="#" />
+                </div>
+                <div className="item-info">
+                        <h1>Pods</h1>
+                        <p>Variety of choices<br/>available</p>
+                </div>
+            </div>  
+            <div className="box item-4">
+                <div className="img-con">
+                    <img src={v5} alt="#" />
+                </div>
+                <div className="item-info">
+                    <h1>Disposable</h1>
+                    <p>Easy clean &<br/>superb flavor</p>
+                </div>
+            </div>
         </div>
     )
 }

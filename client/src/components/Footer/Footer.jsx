@@ -6,6 +6,13 @@ import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel'
 import './Footer.scss'
 import qrcode from '../../assets/qrcode.png'
+import kpay from '../../assets/kpay.png'
+import wave from '../../assets/wave.png'
+import fb from '../../assets/facebook.png'
+import insta from '../../assets/instagram.jpg'
+import twitter from '../../assets/twitter.png'
+import viber from '../../assets/viber.jpg'
+import tele from '../../assets/telegram.jpg'
 
 function Footer() {
   return (
@@ -52,13 +59,18 @@ function Footer() {
         <div className='payment'>
           <h4>Payment</h4>
           <div className='imgs'>
-
+            <img src={kpay} alt='kpay' />
+            <img src={wave} alt='wave' />
           </div>
         </div>
         <div className='follow'>
           <h4>Follow Us On</h4>
           <div className='icons'>
-
+            <img src={fb} alt='facebook' />
+            <img src={insta} alt='instagram' />
+            <img src={viber} alt='viber' />
+            <img src={tele} alt='telegram' />
+            <img src={twitter} alt='twitter' />
           </div>
         </div>
       </div>

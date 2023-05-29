@@ -42,5 +42,29 @@
     }
   }
 
-  
+  .middle-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .payment{
+      h4{
+        margin: 20px 0;
+      }
+      .imgs{
+        img{
+          width: 60px;
+        }
+      }
+    }
+    .follow{
+      img{
+        width: 40px;
+        margin: 5px;
+      }
+    }
+  }
+
+  .btn-footer{
+    text-align: center;
+  }
 }

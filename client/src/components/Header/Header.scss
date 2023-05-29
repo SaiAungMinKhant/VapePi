@@ -1,19 +1,21 @@
-.header{
+.header {
     height: 50vh;
-    width: 100%;
+    width: 100vw;
     background-image: url("../../assets/bg3.jpg");
     background-size: cover;
     background-position: center;
 
-    .promo{
+    .promo {
         color: white;
         text-align: center;
         margin-top: 20vh;
-        h1{ 
-            margin-top: 0px;
+
+        h1 {
+            margin-top: 0;
             margin-bottom: 8px;
         }
-        button{
+
+        button {
             margin-top: 5px;
             height: 35px;
             width: 70px;
@@ -21,6 +23,22 @@
             background-color: gray;
             border: none;
             border-radius: 45px;
+        }
+    }
+
+    // Media queries for mobile devices
+    @media (max-width: 768px) {
+        .promo {
+            margin-top: 10vh;
+
+            h1 {
+                font-size: 24px;
+            }
+
+            button {
+                height: 30px;
+                width: 60px;
+            }
         }
     }
 }
