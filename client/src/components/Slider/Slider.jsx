@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Card from '../Card/Card';
 import './Slider.scss';
+import {BiRightArrowAlt} from 'react-icons/bi'
 import v1 from '../../assets/v1.png';
 import v2 from '../../assets/v2.png';
 import v3 from '../../assets/v3.png';
@@ -52,7 +53,7 @@ const Slider = () => {
           </div>
         ))}
       </div>
-      <button className="next" onClick={handleNextSlide}>Next</button>
+      <button className="next" onClick={handleNextSlide}><BiRightArrowAlt /></button>
     </div>
   );
 };

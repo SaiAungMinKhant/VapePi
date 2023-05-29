@@ -19,4 +19,54 @@
             }
         }
     }
+    .more{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        text-align: center;
+        justify-content: space-between;
+        background-color: #262626;
+        width: 78%;
+        margin: 20px auto;
+        border-radius: 15px;
+        .left{
+            background-color: transparent;
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            color: white;
+            img{
+                height: 220px;
+                margin-top: 40px;
+            }
+            .info{
+                text-align: left;
+                position: relative;
+                top: 30%;
+                left: -5%;
+                h2{
+                    margin: 0;
+                }
+            }
+        }
+        .slider-container{
+            .slider{
+                .slider-item{
+                    width: 160px;
+                    .card{
+                        color: white;
+                        .img{
+                            background-color: aliceblue;
+                            border-radius: 7px;
+                        }
+                        .detail{
+                            h4{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

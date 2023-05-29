@@ -30,12 +30,40 @@ function Products() {
         </div>
       </div>
       <ControlledCarousel />
+
       <div className='more'>
-        <div className='left'></div>
-        <div className='slider-container'>
-          <Slider />
+        <div className='left'>
+          <img src={v9} alt='#' />
+          <div className='info'>
+            <h2>Devices</h2>
+            <p>Find the best for<br/>you here!</p>
+          </div>
         </div>
+          <Slider />
       </div>
+
+      <div className='more'>
+        <div className='left'>
+          <img src={v10} alt='#' />
+          <div className='info'>
+            <h2>Pods</h2>
+            <p>Variety of choices<br/>available</p>
+          </div>
+        </div>
+          <Slider />
+      </div>
+
+      <div className='more'>
+        <div className='left'>
+          <img src={v11} alt='#' />
+          <div className='info'>
+            <h2>Disposable</h2>
+            <p>Easy, clean &<br/>superb flavor</p>
+          </div>
+        </div>
+          <Slider />
+      </div>
+
     </div>
   );
 }
