@@ -70,6 +70,12 @@
       }
     }
   }
+
+  @media (max-width:768px){
+    .container{
+      display: none;
+    }
+}
   
   @keyframes slide-right-in {
       from {

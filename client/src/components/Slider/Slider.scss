@@ -29,7 +29,10 @@
     border-radius: 7px;
     top: 37%;
     transform: translateY(-50%);
-
+    @media (max-width:768px){
+      height: 80px;
+      width: 40px;
+    }
     &:hover {
       background-color: darkgray;
     }

@@ -42,11 +42,6 @@ function Carousel() {
     <div className="container">
       <button className="button-next" onClick={nextImage}><AiOutlineArrowRight /></button>
       <div className="track">
-      {/* <div className='newflavor'>
-        <h1>Try New Flavor</h1>
-        <span>Citrus Moster</span>
-        <button>View</button>
-      </div> */}
         {images.map((image, index) => (
           <div
             className="slide-image"

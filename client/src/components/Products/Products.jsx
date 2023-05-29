@@ -51,7 +51,7 @@ function Products() {
         <button>View More</button>
       </div>
       
-      <ControlledCarousel />
+      <ControlledCarousel className="hide" />
 
       <div className='more'>
         <div className='left'>
