@@ -16,6 +16,7 @@
     }
     .row{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         .col{
             text-align: center;
@@ -26,7 +27,7 @@
                 margin: auto;
             }
             .card{
-                padding: 10px 30px;
+                padding: 10px 15px;
                 p{
                     background-color: transparent;
                     color: black;
@@ -42,5 +43,14 @@
         background-color: transparent;
         cursor: pointer;
         border: none;
+    }
+}
+
+@media (max-width:768px){
+    .hide{
+        display: none;
+    }
+    .card{
+        padding: 5px 10px;
     }
 }

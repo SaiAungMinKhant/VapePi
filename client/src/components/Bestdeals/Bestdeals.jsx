@@ -46,7 +46,7 @@ function Bestdeals() {
                         point="600"  
                     />
                 </div>
-                <div className="col">
+                <div className="col hide">
                     <p>25%Off</p>
                     <Card
                         img={v4}
@@ -56,7 +56,7 @@ function Bestdeals() {
                         point="600"  
                     />
                 </div>
-                <div className="col">
+                <div className="col hide">
                     <p>25%Off</p>
                     <Card
                         img={v5}
@@ -66,7 +66,7 @@ function Bestdeals() {
                         point="600"  
                     />
                 </div>
-                <div className="col">
+                <div className="col hide">
                     <p>25%Off</p>
                     <Card
                         img={v6}

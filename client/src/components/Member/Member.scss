@@ -83,3 +83,9 @@
         }
     }
 }
+
+@media (max-width:768px){
+    .item-2, .item-3, .item-4{
+        display: none;
+    }
+}
