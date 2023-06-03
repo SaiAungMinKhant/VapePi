@@ -6,8 +6,10 @@
     flex-direction: row;
     text-align: left;
     justify-content: space-between;
-    width: 77%;
+    width: 83%;
     margin: auto;
+    padding: 15px 0;
+
     @media (max-width:768px){
       text-align: center;
       justify-content: center;
@@ -22,6 +24,10 @@
         li{
           list-style: none;
           margin: 10px 0;
+          a{
+            text-decoration: none;
+            color: black;
+          }
         }
       }
     }
@@ -60,6 +66,7 @@
       .imgs{
         img{
           width: 60px;
+          padding: 0 10px 0 0;
           @media (max-width:768px){
             width: 45px;
           }
@@ -78,7 +85,7 @@
   }
 
   .btn-footer{
-    margin: 10px 0;
     text-align: center;
+    padding: 10px;
   }
 }

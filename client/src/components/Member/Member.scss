@@ -9,6 +9,7 @@
         background-color: gray;
         border: none;
         border-radius: 45px;
+        cursor: pointer;
     }
 }
 .item-2{
@@ -80,6 +81,9 @@
         .items-1{
             text-align: left;
             margin: 280px auto auto 50px;
+            @media (max-width:768px) {
+                margin: 100px auto auto 50px;
+            }
         }
     }
 }

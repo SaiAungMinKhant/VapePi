@@ -22,8 +22,8 @@ function Footer() {
         <div className='customer-care'>
           <h4>Customer Service</h4>
           <ul>
-            <li>Terms & Privacy Policy</li>
-            <li>Return Policy</li>
+            <li><a href='terms'>Terms & Privacy Policy</a></li>
+            <li><a href='return'>Return Policy</a></li>
           </ul>
         </div>
         <div className='lang'>
@@ -59,18 +59,18 @@ function Footer() {
         <div className='payment'>
           <h4>Payment</h4>
           <div className='imgs'>
-            <img src={kpay} alt='kpay' />
-            <img src={wave} alt='wave' />
+            <a href='kpay'><img src={kpay} alt='kpay' /></a>
+            <a href='wave'><img src={wave} alt='wave' /></a>
           </div>
         </div>
         <div className='follow'>
           <h4>Follow Us On</h4>
           <div className='icons'>
-            <img src={fb} alt='facebook' />
-            <img src={insta} alt='instagram' />
-            <img src={viber} alt='viber' />
-            <img src={tele} alt='telegram' />
-            <img src={twitter} alt='twitter' />
+            <a href='fb'><img src={fb} alt='facebook' /></a>
+            <a href='insta'><img src={insta} alt='instagram' /></a>
+            <a href='viber'><img src={viber} alt='viber' /></a>
+            <a href='tele'><img src={tele} alt='telegram' /></a>
+            <a href='twitter'><img src={twitter} alt='twitter' /></a>
           </div>
         </div>
       </div>

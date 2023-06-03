@@ -28,7 +28,7 @@ const Slider = () => {
   ];
 
   const [position, setPosition] = useState(0);
-  const slideWidth = 300; // Adjust the width of each product item
+  const slideWidth = 260; // Adjust the width of each product item
   const slidesToShow = Math.floor(window.innerWidth / slideWidth);
   const slidesToScroll = 1;
   const totalSlides = products.length;
@@ -37,7 +37,7 @@ const Slider = () => {
   const handleNextSlide = () => {
     const newPosition = position - slideWidth * slidesToScroll;
 
-    if (Math.abs(newPosition) > slideWidth * totalSlides) {
+    if (Math.abs(newPosition) >= slideWidth * totalSlides) {
       setPosition(0);
     } else {
       setPosition(newPosition);
