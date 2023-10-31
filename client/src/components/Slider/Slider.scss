@@ -8,10 +8,16 @@
     transition: transform 0.5s ease-in-out;
     width: calc(100% - 100px); // Adjust width to accommodate buttons
     margin: 0 auto; // Center the slider horizontally
-    .slider-item{
+    .slider-item {
       text-align: center;
-      .card{
+      .card {
         margin: 10px 30px;
+        .img{
+          transition: 0.3s;
+          &:hover{
+            transform: scale(1.1);
+          }
+        }
       }
     }
   }
@@ -28,8 +34,9 @@
     border: none;
     border-radius: 7px;
     top: 37%;
+    transition: 0.3s;
     transform: translateY(-50%);
-    @media (max-width:768px){
+    @media (max-width: 768px) {
       height: 80px;
       width: 40px;
     }

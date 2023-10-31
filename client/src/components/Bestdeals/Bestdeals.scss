@@ -20,6 +20,14 @@
         justify-content: space-evenly;
         .col{
             text-align: center;
+            background-color: #F7EFE5;
+            margin: 10px;
+            padding-top: 10px;
+            border-radius: 10px;
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.05);
+            }
             p{  
                 background-color: red;
                 color: white;
@@ -27,7 +35,7 @@
                 margin: auto;
             }
             .card{
-                padding: 10px 15px;
+                padding: 10px;
                 p{
                     background-color: transparent;
                     color: black;
@@ -37,12 +45,21 @@
         }
     }
     button{
-        width: 100px;
-        height: 40px;
+        width: 80px;
+        height: 30px;
         margin: auto;
         background-color: transparent;
         cursor: pointer;
+        transition: 0.5s;
         border: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        p{
+            margin: auto;
+        }
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 }
 

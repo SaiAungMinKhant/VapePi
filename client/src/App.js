@@ -1,20 +1,13 @@
-import './App.scss';
-import Bestdeals from './components/Bestdeals/Bestdeals';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Member from './components/Member/Member';
-import Products from './components/Products/Products';
+import React from "react";
+import Homepage from "./layouts/homepage";
+import "./App.scss";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <Bestdeals />
-      <Member />
-      <Products />
-      <Footer />
-    </div>
+    <>
+      <Homepage />
+    </>
   );
-}
+};
 
 export default App;
